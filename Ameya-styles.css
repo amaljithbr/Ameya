@@ -1,0 +1,87 @@
+.sec-1{
+    padding-top: 60px;
+   
+   
+}
+.ameya-img{
+    width: 350px;
+    height: 440px;
+    margin-left: 50px;
+}
+.about{
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(56, 55, 55);
+    margin-top: 60px;
+}
+.about-sentences{
+    margin-top: 50px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sec-2{
+    margin-top: 50px;
+}
+.services-head{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(56, 55, 55);
+}
+.services-div{
+   margin-left: 50px;
+}
+.experience{
+    font-size: 50px;
+    color: rgb(56, 55, 55);
+    font-weight: bold;
+   
+}
+.experience-sentences{
+    font-size: 25px;
+   
+
+}
+.card{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.contact-head{
+    font-size: 50px;
+    color: rgb(56, 55, 55);
+    font-weight: bold;
+}
+#status.success{
+   
+    background: rgb(56, 230, 56);
+    animation: status 4s ease forwards;
+   
+    
+}
+#status.error{
+   
+    background: rgb(253, 40, 40);
+    animation: status 4s ease forwards;
+}
+#status{
+    width: 50%; 
+    margin-top: 50px;
+    background: rgb(56, 230, 56);
+    border-radius: 5px;
+    border-width: 0px;
+    font-size: 20px;
+}
+@keyframes status{
+    0%{
+       opacity: 1;
+       pointer-events: all;
+    }
+    90%{
+        opacity: 1;
+        pointer-events: all;
+     }
+     100%{
+        opacity: 0;
+        pointer-events: none;
+     }
+}
